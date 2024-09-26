@@ -1,0 +1,103 @@
+styles.css
+body {
+    font-family: 'Work Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+p, ul, li {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    color: #385f74;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #bad1de;
+}
+
+header {
+    background-color: #45758e;
+    color: #eff4f7;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 24px;
+    color: #2b495a;
+    text-align: center;
+}
+
+nav {
+    background-color: #2b495a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #e2ebf1;
+    text-decoration: underline;
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.picture-centered-text {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 14;
+    margin: 20px 0;
+    text-align: center;
+    color: #385f74;
+}
+
+.picture-centered-text img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #2b495a;
+    font-family: 'Gowun Batang', serif;
+    color: #e2ebf1;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
