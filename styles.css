@@ -273,9 +273,15 @@ footer a:hover {
 }
 
 .headshot {
+    display: flex;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 100%;
     text-align: center;
+}
+
+.headshot img {
+    max-width: 100%;
+    height: auto;
 }
 
 .headshot-container {
@@ -301,20 +307,29 @@ footer a:hover {
     background-color: #d6e9f0e0;
 }
 
-@media screen and (max-width:554px){
-	body {
-		background-color: #9bcba6;
-}
-}
-
-@media screen and (min-width:555px){
-	body {
-		background-color: #dec9d4;
-}
+@media screen and (max-width: 554px) {
+    body {
+        background-color: #9bcba6;
+    }
+    .headshot {
+        max-width: 300px;
+    }
 }
 
-@media screen and (max-width:800px){
-	body {
-		background-color: #f0dba7;
+@media screen and (min-width: 555px) and (max-width: 800px) {
+    body {
+        background-color: #dec9d4;
+    }
+    .headshot {
+        max-width: 450px;
+    }
 }
+
+@media screen and (min-width: 801px) {
+    body {
+        background-color: #f0dba7;
+    }
+    .headshot {
+        max-width: 600px;
+    }
 }
