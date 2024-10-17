@@ -325,16 +325,25 @@ footer a:hover {
     .headshot-section {
         max-width: 300px;
     }
+    body {
+    background-color: #8b3a62;
+    }
 }
 
 @media screen and (min-width: 555px) and (max-width: 800px) {
     .headshot-section {
         max-width: 450px;
     }
+    body {
+    background-color: #dcae96;
+    }
 }
 
 @media screen and (min-width: 801px) {
     .headshot-section {
         max-width: 600px;
+    }
+    body {
+    background-color: #668c6f;
     }
 }
