@@ -326,7 +326,7 @@ footer a:hover {
         max-width: 300px;
     }
     body {
-    background-color: #8b3a62;
+    background-color: #8b3a62 important!;
     }
 }
 
@@ -335,7 +335,7 @@ footer a:hover {
         max-width: 450px;
     }
     body {
-    background-color: #dcae96;
+    background-color: #dcae96 important!;
     }
 }
 
@@ -344,6 +344,6 @@ footer a:hover {
         max-width: 600px;
     }
     body {
-    background-color: #668c6f;
+    background-color: #668c6f important!;
     }
 }
