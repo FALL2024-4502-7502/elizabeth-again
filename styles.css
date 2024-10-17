@@ -314,7 +314,7 @@ footer a:hover {
     body {
         background-color: #9bcba6;
     }
-    .headshot {
+    .headshot, .headshotcontainer {
         max-width: 300px;
     }
 }
@@ -323,7 +323,7 @@ footer a:hover {
     body {
         background-color: #dec9d4;
     }
-    .headshot {
+    .headshot, .headshotcontainer {
         max-width: 450px;
     }
 }
@@ -332,7 +332,7 @@ footer a:hover {
     body {
         background-color: #f0dba7;
     }
-    .headshot {
+    .headshot, .headshotcontainer {
         max-width: 600px;
     }
 }
