@@ -10,7 +10,7 @@ body {
 p, ul, li {
     font-family: 'Work Sans', Arial, sans-serif;
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     color: #385f74;
 }
 
@@ -90,20 +90,21 @@ main {
 
 .picture-centered-text {
     font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 14;
+    font-size: 14px;
     margin: 50px;
     text-align: center;
     color: #385f74;
 }
 
-.picture-centered-text a {
+.picture-centered-text .email {
+    display: inline-block;
     border: 1.5px solid #2b495a;
     padding: 8px;
     text-decoration: none;
     color:#2b495a;
 }
 
-.picture-centered-text a:hover {
+.picture-centered-text .email:hover {
     background-color: #d6e9f0e0;
 }
 
@@ -115,15 +116,20 @@ main {
 ul {
     padding-left: 20px;
     display: flex;
-    flex-direction: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: relative;
+    align-content:flex-start;
+}
+
+title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .listings2 {
 	display: flex;
-    flex-direction: flex;
 	flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -134,7 +140,7 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: relative;
+    align-items: center;
 }
 
 .list-image {
@@ -239,13 +245,13 @@ footer a:hover {
 }
 
 .jumptopics li {
-    font-size: 24;
+    font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
 }
 
 .jumptopics h3 {
-    font-size: 30;
+    font-size: 30px;
     margin-top: 50px;
     margin-bottom: 0px;
     color:#43677d
@@ -266,17 +272,16 @@ footer a:hover {
     font-size: 24px;
     margin-top: 35px;
     margin-bottom: 0px;
-    border: 1.5px solid color: #45758e;
+    border: 1.5px solid; color: #45758e;
     padding: 8px;
-    background-color: #45758e;
-    color:whitesmoke;
+    background-color:#45758e;
+    color: whitesmoke;
 }
 
 .headshot {
-    display: flex;
-    margin: 0 auto;
-    max-width: 100%;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .headshot img {
@@ -285,10 +290,16 @@ footer a:hover {
 }
 
 .headshot-container {
+    width: 100%;
+}
+
+.headshot-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
-    max-width: 100%;
-    text-align: center;
 }
 
 .hello {
@@ -311,28 +322,19 @@ footer a:hover {
 }
 
 @media screen and (max-width: 554px) {
-    body {
-        background-color: #9bcba6;
-    }
-    .headshot, .headshotcontainer {
+    .headshot-section {
         max-width: 300px;
     }
 }
 
 @media screen and (min-width: 555px) and (max-width: 800px) {
-    body {
-        background-color: #dec9d4;
-    }
-    .headshot, .headshotcontainer {
+    .headshot-section {
         max-width: 450px;
     }
 }
 
 @media screen and (min-width: 801px) {
-    body {
-        background-color: #f0dba7;
-    }
-    .headshot, .headshotcontainer {
+    .headshot-section {
         max-width: 600px;
     }
 }
