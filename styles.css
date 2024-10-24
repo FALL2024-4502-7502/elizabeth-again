@@ -1,0 +1,423 @@
+styles.css
+
+body {
+    font-family: 'Work Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+p, ul, li {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #385f74;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #bad1de;
+}
+
+header {
+    color: #eff4f7;
+    padding: 10px;
+    text-align: center;
+}
+
+title {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 36px;
+    margin: 40px;
+    text-align: center;
+    color:#2b495a
+}
+
+h1 {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:#335365;
+}
+
+h2 {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 24px;
+    color: #43677d;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 20px;
+    color: #507487
+      }
+
+nav {
+    background-color: #2b495a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1.5px solid whitesmoke;
+    padding: 8px;
+}
+
+nav a {
+    color: #e2ebf1;
+    text-decoration: underline;
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.picture-centered-text {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin: 50px;
+    text-align: center;
+    color: #385f74;
+}
+
+.picture-centered-text .email {
+    display: inline-block;
+    border: 1.5px solid #2b495a;
+    padding: 8px;
+    text-decoration: none;
+    color:#2b495a;
+}
+
+.picture-centered-text .email:hover {
+    background-color: #d6e9f0e0;
+}
+
+.picture-centered-text img {
+    max-width: 600px;
+    height: auto;
+}
+
+ul {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:flex-start;
+}
+
+title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.listings2 {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.list-item > div {
+    width: 100%;
+}
+
+.list-image {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+.list-image img {
+	max-width: 300px;
+	margin: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-item h3,p.author,p.book-desc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-item h3 {
+    margin-bottom: 0rem;
+}
+
+h3 a{
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+p.author {
+    margin-top: .5rem;
+    margin-bottom: 0rem;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #2b495a;
+    font-family: 'Gowun Batang', serif;
+    color: #e2ebf1;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color:#e2ebf1;
+}
+
+footer a:hover {
+    color:#bad1de;
+}
+
+.music {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.music li {
+    margin-bottom: 15px;
+}
+
+.navlist li {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    align-content: center;
+}
+
+.navlist li a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/*.navlist a:hover {
+    color:#bad1de;
+}*/
+
+.navlist li:hover {
+    background-color: #476274;
+}
+
+.jumptopics ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.jumptopics li {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.jumptopics h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color:#43677d
+}
+
+.jumptopics a {
+    font-size: 16px;
+    text-decoration: none;
+    color:#43677d;
+}
+
+.jumptopics a:hover {
+    text-decoration: underline;
+    color:#2b495a;
+}
+
+.topictitles {
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    border: 1.5px solid; color: #45758e;
+    padding: 8px;
+    background-color:#45758e;
+    color: whitesmoke;
+}
+
+.headshot {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.headshot img {
+    max-width: 100%;
+    height: auto;
+}
+
+.headshot-container {
+    width: 100%;
+}
+
+.headshot-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hello {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-weight: 500;
+    color:#2b495a;
+}
+
+.backtotop a {
+    border: 1.5px solid #2b495a;
+    padding: 8px;
+    text-decoration: none;
+    color:#2b495a;
+}
+
+.backtotop a:hover {
+    background-color: #d6e9f0e0;
+}
+
+.museum-titles {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 24px;
+    color: #43677d;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.museum-titles a {
+    text-decoration: none;
+    color:#43677d;
+}
+
+.museum-titles a:hover {
+    text-decoration: underline;
+    color:#385f74;
+}
+
+.museum-image {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+}
+
+.museum-image img {
+	max-width: 300px;
+	margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: .30rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-info {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.contact-info > div {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.museum-address p {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.museum-phone {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.museum-desc {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    width: 100%;
+    text-align: left;
+}
+
+@media screen and (max-width: 554px) {
+    .headshot-section {
+        max-width: 300px;
+    }
+    body {
+    background-color: #8b3a62 important!;
+    }
+}
+
+@media screen and (min-width: 555px) and (max-width: 800px) {
+    .headshot-section {
+        max-width: 450px;
+    }
+    body {
+    background-color: #dcae96 important!;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .headshot-section {
+        max-width: 600px;
+    }
+    body {
+    background-color: #668c6f important!;
+    }
+}
