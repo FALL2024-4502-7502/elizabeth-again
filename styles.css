@@ -343,6 +343,19 @@ footer a:hover {
     margin-bottom: 3rem;
 }
 
+.museum-byline {
+    margin-top: 40px;
+    margin-bottom: 2.2rem !important;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-weight: 500;
+    color:#2b495a;
+}
+
+.museum-blurb {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
 .a-museum {
     text-align: left;
 }
@@ -359,7 +372,7 @@ footer a:hover {
     color: #43677d;
     text-align: center;
     margin-bottom: 1.3rem;
-    margin-top: 4rem;
+    margin-top: 0.5rem;
 }
 
 .museum-titles a {
@@ -383,7 +396,7 @@ footer a:hover {
 .museum-image img {
 	max-width: 300px;
 	margin: 1rem;
-    margin-top: 0rem;
+    margin-top: 5rem;
     margin-bottom: .30rem;
     justify-content: flex-start;
     align-items: center;
@@ -464,7 +477,7 @@ footer a:hover {
         max-width: 300px;
     }
     body {
-    background-color: #8b3a62 important!;
+    background-color: #8b3a62 !important;
     }
 }
 
@@ -473,7 +486,7 @@ footer a:hover {
         max-width: 450px;
     }
     body {
-    background-color: #dcae96 important!;
+    background-color: #dcae96 !important;
     }
 }
 
@@ -482,6 +495,6 @@ footer a:hover {
         max-width: 600px;
     }
     body {
-    background-color: #668c6f important!;
+    background-color: #668c6f !important;
     }
 }
