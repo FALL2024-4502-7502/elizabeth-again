@@ -202,6 +202,7 @@ footer {
     padding: 10px;
     font-size: 14px;
     margin-top: 0;
+    width: 100%;
 }
 
 footer a {
@@ -332,6 +333,10 @@ footer a:hover {
     background-color: #d6e9f0e0;
 }
 
+.backtotop {
+    text-align: center;
+}
+
 .a-museum {
     text-align: left;
 }
@@ -377,6 +382,11 @@ footer a:hover {
     align-items: center;
 }
 
+.museum-image p {
+    font-size: 12px;
+    margin-top: 0.3rem;
+}
+
 .museum-info {
     width: 100%;
     text-align: left;
@@ -404,7 +414,7 @@ footer a:hover {
     margin-bottom: 1rem;
 }
 
-.museum-address, .museum-phone p {
+.museum-address {
     margin: 0;
     padding: 5px 0;
     width: 100%;
@@ -418,6 +428,31 @@ footer a:hover {
     padding: 5px 0;
     width: 100%;
     text-align: left;
+}
+
+.museumintro h1 {
+    margin-bottom: 4rem;
+}
+
+.museumintro p {
+    margin-bottom: 3rem;
+}
+
+.museumslist {
+    margin: 5rem 8rem 2rem 8rem !important;
+}
+
+.museum-phone a[href^=“tel:”] {
+    text-decoration: none;
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #385f74;
+}
+
+.museum-phone a[href^=“tel:”]:hover {
+    text-decoration: underline;
+    color: #2b495a;
 }
 
 @media screen and (max-width: 554px) {
