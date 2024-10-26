@@ -393,7 +393,8 @@ footer a:hover {
 }
 
 .museum-image img {
-	max-width: 300px;
+	max-width: 500px;
+    height: 100%;
 	margin: 1rem;
     margin-top: 5rem;
     margin-bottom: .30rem;
@@ -469,6 +470,34 @@ footer a:hover {
 
 .museumslist, .booklist, .index-content {
     margin: 5rem 8rem 2rem 8rem !important;
+}
+
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .flourish-embed-iframe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+
+.flourish-embed-iframe iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 @media screen and (max-width: 554px) {
