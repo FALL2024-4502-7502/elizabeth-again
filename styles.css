@@ -502,9 +502,9 @@ footer a:hover {
 
 .gallery-content {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 
@@ -516,13 +516,16 @@ footer a:hover {
 .button_holder {
 	display: flex;
 	flex-direction: row;
+    align-items: center;
 }
 
 .button-next {  }
 .button-previous {  }
 
-.stepper { 
-    
+#stepper { 
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #385f74;
  }
 
 button {
@@ -546,25 +549,25 @@ button:hover {
 }
 
 .gallery-image {
-	max-width: 100%;
-	
-
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .gallery-image img {
-	width: 100%;
-	max-height: 500px;
+	max-width: 100%;
+    height: auto;
 }
 
 .hideThis {
 	display: none;
 }
 
-gallery-image {
+.gallery-image {
 	display: flex;
 	flex-direction: column;
 	margin: 3rem;
-
 }
 
 .gallery-image img {
@@ -585,7 +588,11 @@ gallery-image {
 
 .gallery {
 	display: flex;
-	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
