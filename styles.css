@@ -518,22 +518,31 @@ footer a:hover {
 	flex-direction: row;
 }
 
-.button_next {  }
-.button_previous {  }
+.button-next {  }
+.button-previous {  }
 
-.stepper {  }
+.stepper { 
+    
+ }
 
 button {
-	background-color: orange;
+	background-color: #385f74;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
+    font-family: 'Work Sans', Arial, sans-serif;
 	font-size: 1.2rem;
-	border-radius: 0.5rem;
+    color: #bad1de;
+	border: none;
+}
+
+button:hover {
+    background-color: #43677d;
+    color: whitesmoke;
 }
 
 .button-start {
-	background-color: forestgreen;
+	background-color: #385f74;
 }
 
 .gallery-image {
@@ -560,11 +569,18 @@ gallery-image {
 
 .gallery-image img {
 	display: flex;
-  	max-width:230px;
-  	max-height:95px;
+  	max-width:500px;
+  	max-height:700px;
  	width: auto;
   	height: auto;
   	margin: 1rem;
+}
+
+.gallery-image figcaption {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #385f74;
 }
 
 .gallery {
