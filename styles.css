@@ -500,25 +500,78 @@ footer a:hover {
     border: 0;
 }
 
-/*.gallery
+.gallery-example {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
 
-.galleryintro
 
-.gallery-byline
+.gallery-intro {
 
-.gallery-blurb
+}
 
-.button_holder
 
-button_previous
+.button_holder {
+	display: flex;
+	flex-direction: row;
+}
 
-.button-start
+button_next {  }
+button_previous {  }
 
-stepper
+.stepper {  }
 
-button_next
+button {
+	background-color: orange;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
 
-.gallery-image*/
+.button-start {
+	background-color: forestgreen;
+}
+
+.gallery-image {
+	max-width: 100%;
+	
+
+}
+
+.gallery-image img {
+	width: 100%;
+	max-height: 500px;
+}
+
+.hideThis {
+	display: none;
+}
+
+gallery-image {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+
+}
+
+.gallery-image img {
+	display: flex;
+  	max-width:230px;
+  	max-height:95px;
+ 	width: auto;
+  	height: auto;
+  	margin: 1rem;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
 @media screen and (max-width: 554px) {
     .headshot-section {
