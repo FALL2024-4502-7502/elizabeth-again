@@ -519,8 +519,8 @@ footer a:hover {
     align-items: center;
 }
 
-.button-next {  }
-.button-previous {  }
+#button-next {  }
+#button-previous {  }
 
 #stepper { 
     font-family: 'Work Sans', Arial, sans-serif;
