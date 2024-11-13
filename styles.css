@@ -517,6 +517,8 @@ footer a:hover {
 	display: flex;
 	flex-direction: row;
     align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
 }
 
 #button-next {  }
@@ -548,35 +550,23 @@ button:hover {
 	background-color: #385f74;
 }
 
+.hideThis {
+	display: none !important;
+}
+
 .gallery-image {
-	display: flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
     width: 100%;
 }
 
 .gallery-image img {
-	max-width: 100%;
+    max-width: 100%;
     height: auto;
-}
-
-.hideThis {
-	display: none;
-}
-
-.gallery-image {
-	display: flex;
-	flex-direction: column;
-	margin: 3rem;
-}
-
-.gallery-image img {
-	display: flex;
-  	max-width:500px;
-  	max-height:700px;
- 	width: auto;
-  	height: auto;
-  	margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 .gallery-image figcaption {
@@ -584,6 +574,9 @@ button:hover {
     font-weight: 400;
     font-size: 16px;
     color: #385f74;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .gallery {
