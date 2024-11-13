@@ -547,9 +547,9 @@ button:hover {
     color: whitesmoke;
 }
 
-.button-start {
+/*.button-start {
 	background-color: #385f74;
-}
+}*/
 
 .hideThis {
 	display: none !important;
