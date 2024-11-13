@@ -516,9 +516,9 @@ footer a:hover {
 .button_holder {
 	display: flex;
 	flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
+    margin: 1rem 0;
 }
 
 #button-next {  }
@@ -528,6 +528,7 @@ footer a:hover {
     font-family: 'Work Sans', Arial, sans-serif;
     font-size: 1.2rem;
     color: #385f74;
+    margin: 0 1rem;
  }
 
 button {
