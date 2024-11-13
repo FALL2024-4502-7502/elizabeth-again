@@ -40,7 +40,7 @@ title {
 h1 {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 36px;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 15px;
     text-align: center;
     color:#335365;
@@ -87,7 +87,7 @@ nav a {
 }
 
 main {
-    padding: 20px;
+    padding: 0px;
 }
 
 .picture-centered-text {
@@ -246,7 +246,7 @@ footer a:hover {
 }
 
 .headline {
-    margin-bottom: 4rem !important;
+    margin-bottom: 1rem !important;
 }
 
 .jumptopics ul {
@@ -343,7 +343,7 @@ footer a:hover {
 }
 
 .museum-byline {
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
@@ -461,15 +461,15 @@ footer a:hover {
 }
 
 .museumintro h1 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .museumintro p {
     margin-bottom: 3rem;
 }
 
-.museumslist, .booklist, .index-content {
-    margin: 5rem 8rem 2rem 8rem !important;
+.museumslist, .booklist, .index-content, .gallery-intro h1 {
+    margin: 1.5rem 5rem 1rem 5rem !important;
 }
 
 .map {
@@ -507,6 +507,13 @@ footer a:hover {
     width: 100%;
 }
 
+.gallery-byline {
+    margin-top: 0px;
+    margin-bottom: 2.2rem !important;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-weight: 500;
+    color:#2b495a;
+}
 
 .gallery-intro {
 
@@ -548,10 +555,6 @@ button:hover {
     background-color: #43677d;
     color: whitesmoke;
 }
-
-/*.button-start {
-	background-color: #385f74;
-}*/
 
 .hideThis {
 	display: none !important;
