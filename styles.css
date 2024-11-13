@@ -550,6 +550,17 @@ button:hover {
 	background-color: #385f74;
 }
 
+.button_holder.bottom {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#stepper-bottom {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #385f74;
+}
+
 .hideThis {
 	display: none !important;
 }
