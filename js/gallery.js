@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 "use strict";
 
 var photoDivs = document.getElementsByClassName("gallery-image");
