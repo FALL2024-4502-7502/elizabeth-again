@@ -2,9 +2,9 @@
 
 var photoDivs = document.getElementsByClassName("gallery-image");
 
-var nextButton = document.getElementById("button_next");
+var nextButton = document.getElementById("button-next");
 
-var previousButton = document.getElementById("button_previous");
+var previousButton = document.getElementById("button-previous");
 
 var photoNumber = document.getElementById("stepper");
 
