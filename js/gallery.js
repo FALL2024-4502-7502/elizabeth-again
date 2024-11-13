@@ -10,51 +10,36 @@ var previousButton = document.getElementById("button-previous");
 
 var photoNumber = document.getElementById("stepper");
 
-var nextButtonBottom = document.getElementById("button-next-bottom");
-
-var previousButtonBottom = document.getElementById("button-previous-bottom");
-
-var photoNumberBottom = document.getElementById("stepper-bottom");
-
 var currentPhotoNumber = 0;
 
 photoDivs[currentPhotoNumber].classList.remove('hideThis');
 
-function updateSteppers() {
-  photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
-  photoNumberBottom.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
-}
+photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
 
-updateSteppers();
-
-function navigateGallery(direction) {
+nextButton.addEventListener('click', function() {
   photoDivs[currentPhotoNumber].classList.add("hideThis");
-  currentPhotoNumber = currentPhotoNumber + direction;
+  currentPhotoNumber = currentPhotoNumber + 1;
 
   if (currentPhotoNumber === photoDivs.length) {
     currentPhotoNumber = 0;
   }
+
+  photoDivs[currentPhotoNumber].classList.remove('hideThis');
+
+  photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
+
+});
+
+previousButton.addEventListener('click', function() {
+  photoDivs[currentPhotoNumber].classList.add("hideThis");
+  currentPhotoNumber = currentPhotoNumber - 1;
 
   if (currentPhotoNumber < 0) {
     currentPhotoNumber = photoDivs.length - 1;
   }
 
   photoDivs[currentPhotoNumber].classList.remove('hideThis');
-  updateSteppers();
-}
 
-nextButton.addEventListener('click', function() {
-  navigateGallery(1);
-});
+  photoNumber.innerHTML = (currentPhotoNumber + 1) + " / " + photoDivs.length;
 
-previousButton.addEventListener('click', function() {
-  navigateGallery(-1);
-});
-
-nextButtonBottom.addEventListener('click', function() {
-  navigateGallery(1);
-});
-
-previousButtonBottom.addEventListener('click', function() {
-  navigateGallery(-1);
 });
