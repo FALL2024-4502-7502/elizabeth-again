@@ -521,8 +521,10 @@ footer a:hover {
     margin: 1rem 0;
 }
 
-#button-next {  }
-#button-previous {  }
+#button-next, #button-previous {
+    width: 120px;
+    height: 60px;
+  }
 
 #stepper { 
     font-family: 'Work Sans', Arial, sans-serif;
