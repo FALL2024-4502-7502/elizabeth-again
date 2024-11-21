@@ -389,21 +389,20 @@ footer a:hover {
 }
 
 .museum-image {
-	display: flex;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-	align-items: center;
-	width: 100%;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
 }
 
 .museum-image img {
-	max-width: 500px;
-    height: 100%;
-	margin: 1rem;
+    max-width: 600px;
+    height: auto;
+    margin: 1rem;
     margin-top: 5rem;
     margin-bottom: .30rem;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .museum-image p {
@@ -478,27 +477,21 @@ footer a:hover {
 
 .map {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .flourish-embed-iframe {
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     width: 100%;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-  }
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.flourish-embed-iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
 
 .flourish-embed-iframe iframe {
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     border: 0;
@@ -593,6 +586,16 @@ button:hover {
     margin: 0 auto;
 }
 
+.skip-link {
+position: absolute;
+top: -3em;
+background: #fff;
+}
+
+.skip-link: focus {
+top: 0
+}
+
 @media screen and (max-width: 554px) {
     .headshot-section {
         max-width: 300px;
@@ -618,4 +621,23 @@ button:hover {
     body {
     background-color: #bad1de !important;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .museumslist, .booklist, .index-content {
+        margin: 2rem 1rem !important;
+    }
+
+    .museum-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*.map {
+        margin: 2rem 1rem;
+    }
+
+    .flourish-embed-iframe {
+        height: 300px;
+    }*/
 }
