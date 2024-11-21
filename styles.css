@@ -604,27 +604,27 @@ top: 0
     .headshot-section {
         max-width: 300px;
     }
-    body {
+    /*body {
     background-color: #8b3a62 !important;
-    }
+    }*/
 }
 
 @media screen and (min-width: 555px) and (max-width: 800px) {
     .headshot-section {
         max-width: 450px;
     }
-    body {
+    /*body {
     background-color: #dcae96 !important;
-    }
+    }*/
 }
 
 @media screen and (min-width: 801px) {
     .headshot-section {
         max-width: 600px;
     }
-    body {
+    /*body {
     background-color: #668c6f !important;
-    }
+    }*/
 }
 
 @media screen and (max-width: 768px) {
