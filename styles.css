@@ -595,6 +595,15 @@ button:hover {
     margin: 0 auto;
 }
 
+.skip-link {
+position: absolute;
+top: -3em;
+background: #fff;
+}
+
+.skip-link: focus {
+top: 0
+}
 
 @media screen and (max-width: 554px) {
     .headshot-section {
