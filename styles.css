@@ -14,13 +14,13 @@ p, ul, li {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #385f74;
+    color: #1d2d44;
 }
 
 .container {
     max-width: none;
     padding: 0.01px;
-    background-color: #bad1de;
+    background-color: #809bb2;
     width: 100%;
     box-sizing: border-box;
     flex: 1;
@@ -37,33 +37,33 @@ title {
     font-size: 36px;
     margin: 40px;
     text-align: center;
-    color:#2b495a
+    color:#1d2d44;
 }
 
 h1 {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     text-align: center;
-    color:#335365;
+    color:#1d2d44;
 }
 
 h2 {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 24px;
-    color: #43677d;
+    color: #1d2d44;
     text-align: center;
 }
 
 h3 {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 20px;
-    color: #507487
+    color: #1d2d44
       }
 
 nav {
-    background-color: #2b495a;
+    background-color: #1d2d44;
     padding: 10px;
 }
 
@@ -78,12 +78,12 @@ nav li {
     margin-right: 10px;
     margin-left: 10px;
     align-items: center;
-    border: 1.5px solid whitesmoke;
+    border: 1.5px solid #f0ebd8c8;
     padding: 8px;
 }
 
 nav a {
-    color: #e2ebf1;
+    color: #f0ebd8c8;
     text-decoration: underline;
     font-family: 'Gowun Batang', serif;
     font-size: 18px;
@@ -98,19 +98,21 @@ main {
     font-size: 16px;
     margin: 1.5rem;
     text-align: center;
-    color: #385f74;
+    color: #1d2d44;
 }
 
 .picture-centered-text .email {
     display: inline-block;
-    border: 1.5px solid #2b495a;
-    padding: 8px;
+    border: 1.5px solid #1d2d44;
+    background-color: #1d2d44;
+    padding: 10px;
     text-decoration: none;
-    color:#2b495a;
+    color: #f0ebd8c8;
 }
 
 .picture-centered-text .email:hover {
-    background-color: #d6e9f0e0;
+    background-color: #809bb2;
+    color: #1d2d44
 }
 
 .picture-centered-text img {
@@ -187,6 +189,7 @@ h3 a{
 
 h3 a:hover {
     text-decoration: underline;
+    color: #f0ebd8fd;
 }
 
 p.author {
@@ -197,7 +200,7 @@ p.author {
 }
 
 footer {
-    background-color: #2b495a;
+    background-color: #1d2d44;
     font-family: 'Gowun Batang', serif;
     color: #e2ebf1;
     text-align: center;
@@ -210,11 +213,11 @@ footer {
 
 footer a {
     text-decoration: none;
-    color:#e2ebf1;
+    color:#f0ebd8c8;
 }
 
 footer a:hover {
-    color:#bad1de;
+    color:#809bb2;
 }
 
 .music {
@@ -246,11 +249,16 @@ footer a:hover {
 }
 
 .navlist li:hover {
-    background-color: #476274;
+    background-color: #809bb2;
+}
+
+.navlist a:hover {
+    color: #1d2d44;
 }
 
 .headline {
     margin-bottom: 1rem !important;
+    margin-top: 3.5rem !important;
 }
 
 .jumptopics ul {
@@ -268,17 +276,17 @@ footer a:hover {
     font-size: 26px;
     margin-top: 50px;
     margin-bottom: 0px;
-    color:#43677d
+    color:#1d2d44;
 }
 
 .jumptopics a {
     text-decoration: none;
-    color:#43677d;
+    color:#1d2d44;
 }
 
 .jumptopics a:hover {
     text-decoration: underline;
-    color:#2b495a;
+    color:#1d2d44;
 }
 
 .topictitles {
@@ -286,9 +294,9 @@ footer a:hover {
     font-size: 24px;
     margin-top: 35px;
     margin-bottom: 0px;
-    padding: 8px;
-    background-color: #45758e;
-    color: whitesmoke;
+    padding: 15px;
+    background-color: #1d2d44;
+    color: #f0ebd8c8;
     border: none !important;
     margin-left: -20px;
     margin-right: -20px;
@@ -325,19 +333,21 @@ footer a:hover {
     margin-bottom: 35px;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
-    color:#2b495a;
+    color:#1d2d44;
 }
 
 .backtotop a {
-    border: 1.5px solid #2b495a;
+    border: 1.5px solid #1d2d44;
     padding: 8px;
     text-decoration: none;
-    color:#2b495a;
+    color:#f0ebd8c8;
+    background-color: #1d2d44;
 }
 
 .backtotop a:hover {
-    background-color: #d6e9f0e0;
+    background-color: #809bb2;
     text-decoration: none;
+    color:#1d2d44;
 }
 
 .backtotop {
@@ -351,7 +361,7 @@ footer a:hover {
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
-    color:#2b495a;
+    color:#1d2d44;
 }
 
 .museum-blurb {
@@ -372,7 +382,7 @@ footer a:hover {
 .museum-titles {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 24px;
-    color: #43677d;
+    color: #1d2d44;
     text-align: center;
     margin-bottom: 1.3rem;
     margin-top: 0.5rem;
@@ -380,12 +390,12 @@ footer a:hover {
 
 .museum-titles a {
     text-decoration: none;
-    color:#43677d;
+    color:#1d2d44;
 }
 
 .museum-titles a:hover {
     text-decoration: underline;
-    color:#385f74;
+    color:#1d2d44;
 }
 
 .museum-image {
@@ -439,12 +449,12 @@ footer a:hover {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #385f74;
+    color: #1d2d44;
 }
 
 .museum-phone:hover {
     text-decoration: underline;
-    color:#2b495a
+    color:#1d2d44;
 }
 
 .museum-address {
@@ -509,7 +519,7 @@ footer a:hover {
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
-    color:#2b495a;
+    color:#1d2d44;
 }
 
 .button_holder {
@@ -528,24 +538,26 @@ footer a:hover {
 #stepper { 
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.2rem;
-    color: #385f74;
+    color: #1d2d44;
     margin: 0 1rem;
  }
 
 button {
-	background-color: #385f74;
+	background-color: #1d2d44;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
     font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.2rem;
-    color: #bad1de;
-	border: none;
+    color: #f0ebd8c8;
+    border-width: 1px;
+	border: 1.5px solid #1d2d44;
 }
 
 button:hover {
-    background-color: #43677d;
-    color: whitesmoke;
+    background-color: #809bb2;
+    color: #1d2d44;
+    border: 1.5px solid #1d2d44;
 }
 
 .hideThis {
@@ -571,7 +583,7 @@ button:hover {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #385f74;
+    color: #1d2d44;
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
@@ -601,7 +613,7 @@ top: 0
         max-width: 300px;
     }
     body {
-    background-color: #bad1de !important;
+    background-color: #809bb2 !important;
     }
 }
 
@@ -610,7 +622,7 @@ top: 0
         max-width: 450px;
     }
     body {
-    background-color: #bad1de !important;
+    background-color: #809bb2 !important;
     }
 }
 
@@ -619,7 +631,7 @@ top: 0
         max-width: 600px;
     }
     body {
-    background-color: #bad1de !important;
+    background-color: #809bb2 !important;
     }
 }
 
