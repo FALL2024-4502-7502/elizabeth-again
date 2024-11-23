@@ -655,11 +655,16 @@ top: 0
 }
 
 @media screen and (max-width: 768px) {
-    .museumslist, .booklist, .index-content {
+    .museumslist, .booklist, .index-content, .gallery, .gallery-content {
         margin: 2rem 1rem !important;
     }
 
     .museum-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .gallery-image img {
         max-width: 100%;
         height: auto;
     }
