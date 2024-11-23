@@ -207,7 +207,8 @@ footer {
     text-align: center;
     margin: 0;
     padding: 20px;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: light;
     width: 100%;
     box-sizing: border-box;
 }
@@ -237,7 +238,7 @@ footer a:hover {
 }
 
 .navlist li {
-    font-weight: bold;
+    font-weight: lighter;
     text-decoration: none;
     padding: 10px;
     margin-block-start: 10px;
@@ -247,7 +248,7 @@ footer a:hover {
 
 .navlist li a {
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: lighter;
 }
 
 .navlist li:hover, .navlist li:hover a {
