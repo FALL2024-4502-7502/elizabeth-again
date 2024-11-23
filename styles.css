@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#bad1de;
+    background-color:#BED3E5;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,13 @@ p, ul, li {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #1d2d44;
+    color: #17233B;
 }
 
 .container {
     max-width: none;
     padding: 0.01px;
-    background-color: #809bb2;
+    background-color: #BED3E5;
     width: 100%;
     box-sizing: border-box;
     flex: 1;
@@ -37,7 +37,7 @@ title {
     font-size: 36px;
     margin: 40px;
     text-align: center;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 h1 {
@@ -46,24 +46,24 @@ h1 {
     margin-top: 3rem;
     margin-bottom: 1rem;
     text-align: center;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 h2 {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 24px;
-    color: #1d2d44;
+    color: #17233B;
     text-align: center;
 }
 
 h3 {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 20px;
-    color: #1d2d44
+    color: #17233B;
       }
 
 nav {
-    background-color: #1d2d44;
+    background-color: #17233B;
     padding: 10px;
 }
 
@@ -78,12 +78,12 @@ nav li {
     margin-right: 10px;
     margin-left: 10px;
     align-items: center;
-    border: 1.5px solid #f0ebd8c8;
+    border: 1.5px solid #BED3E5;
     padding: 8px;
 }
 
 nav a {
-    color: #f0ebd8c8;
+    color: #BED3E5;
     text-decoration: underline;
     font-family: 'Gowun Batang', serif;
     font-size: 18px;
@@ -98,21 +98,22 @@ main {
     font-size: 16px;
     margin: 1.5rem;
     text-align: center;
-    color: #1d2d44;
+    color: #17233B;
 }
 
 .picture-centered-text .email {
     display: inline-block;
-    border: 1.5px solid #1d2d44;
-    background-color: #1d2d44;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    border: 1.5px solid #17233B;
+    background-color: #17233B;
     padding: 10px;
     text-decoration: none;
-    color: #f0ebd8c8;
+    color: #BED3E5;
 }
 
 .picture-centered-text .email:hover {
-    background-color: #809bb2;
-    color: #1d2d44
+    background-color: #BED3E5;
+    color: #17233B;
 }
 
 .picture-centered-text img {
@@ -165,7 +166,7 @@ title {
 
 .list-image img {
 	max-width: 300px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 0rem;
     justify-content: flex-start;
     align-items: center;
@@ -189,7 +190,7 @@ h3 a{
 
 h3 a:hover {
     text-decoration: underline;
-    color: #f0ebd8fd;
+    color: #BED3E5;
 }
 
 p.author {
@@ -200,9 +201,9 @@ p.author {
 }
 
 footer {
-    background-color: #1d2d44;
+    background-color: #17233B;
     font-family: 'Gowun Batang', serif;
-    color: #e2ebf1;
+    color: #BED3E5;
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -213,11 +214,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color:#f0ebd8c8;
+    color:#BED3E5;
 }
 
 footer a:hover {
-    color:#809bb2;
+    color:#BED3E5;
+    text-decoration: underline;
 }
 
 .music {
@@ -248,12 +250,9 @@ footer a:hover {
     font-weight: bolder;
 }
 
-.navlist li:hover {
-    background-color: #809bb2;
-}
-
-.navlist a:hover {
-    color: #1d2d44;
+.navlist li:hover, .navlist li:hover a {
+    background-color: #BED3E5;
+    color: #17233B;
 }
 
 .headline {
@@ -276,17 +275,18 @@ footer a:hover {
     font-size: 26px;
     margin-top: 50px;
     margin-bottom: 0px;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .jumptopics a {
     text-decoration: none;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .jumptopics a:hover {
-    text-decoration: underline;
-    color:#1d2d44;
+    text-decoration: none;
+    border: 1.5px solid #17233B;
+    padding: 6px;
 }
 
 .topictitles {
@@ -295,8 +295,8 @@ footer a:hover {
     margin-top: 35px;
     margin-bottom: 0px;
     padding: 15px;
-    background-color: #1d2d44;
-    color: #f0ebd8c8;
+    background-color: #17233B;
+    color: #BED3E5;
     border: none !important;
     margin-left: -20px;
     margin-right: -20px;
@@ -333,21 +333,21 @@ footer a:hover {
     margin-bottom: 35px;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .backtotop a {
-    border: 1.5px solid #1d2d44;
+    border: 1.5px solid #17233B;
     padding: 8px;
     text-decoration: none;
-    color:#f0ebd8c8;
-    background-color: #1d2d44;
+    color:#BED3E5;
+    background-color: #17233B;
 }
 
 .backtotop a:hover {
-    background-color: #809bb2;
+    background-color: #BED3E5;
     text-decoration: none;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .backtotop {
@@ -361,7 +361,7 @@ footer a:hover {
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .museum-blurb {
@@ -370,19 +370,19 @@ footer a:hover {
 }
 
 .a-museum {
-    text-align: left;
+    text-align: center;
 }
 
 .a-museum p {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .museum-titles {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 24px;
-    color: #1d2d44;
+    color: #17233B;
     text-align: center;
     margin-bottom: 1.3rem;
     margin-top: 0.5rem;
@@ -390,12 +390,12 @@ footer a:hover {
 
 .museum-titles a {
     text-decoration: none;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .museum-titles a:hover {
     text-decoration: underline;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .museum-image {
@@ -422,7 +422,7 @@ footer a:hover {
 
 .museum-info {
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .contact-info {
@@ -436,41 +436,41 @@ footer a:hover {
     margin: 0;
     padding: 5px 0;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .museum-phone {
     margin: 0;
     padding: 5px 0;
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #1d2d44;
+    color: #17233B;
 }
 
 .museum-phone:hover {
     text-decoration: underline;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .museum-address {
     margin: 0;
     padding: 5px 0;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .museum-desc {
     margin: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 5px 0;
+    padding: 0;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .museumintro h1 {
@@ -481,7 +481,7 @@ footer a:hover {
     margin-bottom: 3rem;
 }
 
-.museumslist, .booklist, .index-content, .gallery-intro h1 {
+.museumslist, .booklist, .index-content, .galleryintro {
     margin: 1.5rem 5rem 1rem 5rem !important;
 }
 
@@ -507,19 +507,12 @@ footer a:hover {
     border: 0;
 }
 
-.gallery-content {
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
 .gallery-byline {
-    margin-top: 0px;
+    margin-top: 1.5rem;
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
-    color:#1d2d44;
+    color:#17233B;
 }
 
 .button_holder {
@@ -538,26 +531,26 @@ footer a:hover {
 #stepper { 
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.2rem;
-    color: #1d2d44;
+    color: #17233B;
     margin: 0 1rem;
  }
 
 button {
-	background-color: #1d2d44;
+	background-color: #17233B;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
     font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.2rem;
-    color: #f0ebd8c8;
+    color: #BED3E5;
     border-width: 1px;
-	border: 1.5px solid #1d2d44;
+	border: 1.5px solid #17233B;
 }
 
 button:hover {
-    background-color: #809bb2;
-    color: #1d2d44;
-    border: 1.5px solid #1d2d44;
+    background-color: #BED3E5;
+    color: #17233B;
+    border: 1.5px solid #17233B;
 }
 
 .hideThis {
@@ -574,7 +567,7 @@ button:hover {
 }
 
 .gallery-image img {
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -583,7 +576,7 @@ button:hover {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #1d2d44;
+    color: #17233B;
     text-align: center;
     max-width: 80%;
     margin: 0 auto;
@@ -594,8 +587,17 @@ button:hover {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 800px;
     margin: 0 auto;
+}
+
+.gallery-content {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galleryintro {
+    text-align: left;
 }
 
 .skip-link {
@@ -613,7 +615,7 @@ top: 0
         max-width: 300px;
     }
     body {
-    background-color: #809bb2 !important;
+    background-color: #BED3E5 !important;
     }
 }
 
@@ -622,7 +624,7 @@ top: 0
         max-width: 450px;
     }
     body {
-    background-color: #809bb2 !important;
+    background-color: #BED3E5 !important;
     }
 }
 
@@ -631,7 +633,7 @@ top: 0
         max-width: 600px;
     }
     body {
-    background-color: #809bb2 !important;
+    background-color: #BED3E5 !important;
     }
 }
 
