@@ -510,7 +510,7 @@ footer a:hover {
 }
 
 .gallery-byline {
-    margin-top: 1.5rem;
+    margin-top: 2.2rem !important;
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
@@ -522,28 +522,36 @@ footer a:hover {
 	flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 0;
+    margin: 1.2rem 0;
+    height: 50px;
 }
 
 #button-next, #button-previous {
     width: 120px;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 #stepper { 
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: #17233B;
-    margin: 0 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
  }
 
 button {
 	background-color: #17233B;
 	margin: 1rem;
-	padding: 1rem;
-	min-width: 10rem;
-    font-family: 'Open Sans', Arial, sans-serif;
+    margin-bottom: 0 !important;
+	padding: .7rem;
+	min-width: 9rem;
+    font-family: 'IBM Plex Serif', Georgia, serif;
 	font-size: 1.2rem;
+    font-weight: light;
     color: #BED3E5;
     border-width: 1px;
 	border: 1.5px solid #17233B;
