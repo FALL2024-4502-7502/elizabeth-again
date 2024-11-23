@@ -28,7 +28,7 @@ p, ul, li {
 
 header {
     color: #eff4f7;
-    padding: 10px;
+    margin-bottom: 2.2rem;
     text-align: center;
 }
 
@@ -355,7 +355,7 @@ footer a:hover {
 .backtotop a:hover {
     background-color: #BED3E5;
     text-decoration: none;
-    color:#17233B;
+    color:#17233B !important;
 }
 
 .backtotop {
