@@ -1,4 +1,4 @@
-styles.css
+
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -8,6 +8,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.skip-link {
+position: absolute;
+top: -3em;
+background: #fff;
+}
+
+.skip-link: focus {
+top: 0
 }
 
 p, ul, li {
@@ -617,15 +627,7 @@ button:hover {
     margin: 1 5 1.5 5;
 }
 
-.skip-link {
-position: absolute;
-top: -3em;
-background: #fff;
-}
 
-.skip-link: focus {
-top: 0
-}
 
 @media screen and (max-width: 554px) {
     .headshot-section {
