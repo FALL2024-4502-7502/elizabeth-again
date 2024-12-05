@@ -628,8 +628,24 @@ button:hover {
 }
 
 
-.skip-link: focus {
+.skip-link:focus {
 top: 0
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #32596e;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    text-align: center;
+}
+
+.back-to-top:hover {
+    background-color: #1e3b4d;
 }
 
 @media screen and (max-width: 554px) {
