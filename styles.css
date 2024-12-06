@@ -529,7 +529,7 @@ footer a:hover {
 }
 
 .gallery-byline {
-    margin-top: 2.2rem !important;
+    margin-top: 0;
     margin-bottom: 2.2rem !important;
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-weight: 500;
@@ -631,6 +631,10 @@ button:hover {
 .gallery-title {
     text-align: center;
     font-size: 36px;
+}
+
+.gallery-title h1 {
+    margin-bottom: 0 !important;
 }
 
 .gallery-page {
