@@ -500,7 +500,7 @@ footer a:hover {
     margin-bottom: 3rem;
 }
 
-.museumslist, .booklist, .index-content, .galleryintro {
+.museumslist, .booklist, .index-content {
     margin: 1.5rem 5rem 1rem 5rem !important;
 }
 
@@ -619,9 +619,21 @@ button:hover {
 
 .galleryintro {
     text-align: left;
-    margin: 1 5 1.5 5;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+    align-self: flex-start;
 }
 
+.gallery-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.gallery-page {
+    margin: 0 !important;
+}
 
 .skip-link:focus {
 top: 0
@@ -684,8 +696,7 @@ top: 0
     }
 
     .gallery-image img, .gallery, .gallery-content {
-        max-width: 100%;
-        width: auto;
+        max-width: 100% !important;
         height: auto;
     }
 }
