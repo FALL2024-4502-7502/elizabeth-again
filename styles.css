@@ -18,7 +18,7 @@ top: -3em;
 background: #fff;
 }
 
-.skip-link: focus {
+.skip-link:focus {
 top: 0
 }
 
@@ -229,7 +229,6 @@ footer {
     margin: 0;
     padding: 20px;
     font-size: 15px;
-    font-weight: light;
     width: 100%;
     box-sizing: border-box;
 }
@@ -572,7 +571,6 @@ button {
 	min-width: 9rem;
     font-family: 'IBM Plex Serif', Georgia, serif;
 	font-size: 1.2rem;
-    font-weight: light;
     color: #BED3E5;
     border-width: 1px;
 	border: 1.5px solid #17233B;
